@@ -1,0 +1,52 @@
+/* here i am adding global styles and variables to this file */
+
+// importing font
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+
+$sky-blue: #8EC5FC;
+$green: #27d7a1;
+$light-green: #E0C3FC; 
+$dark-green: rgb(0, 100, 80);
+
+$light: #f8f8f8;
+
+// Updating Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $green;
+
+$link: $sky-blue;
+
+
+html{
+background: linear-gradient(to right top,$sky-blue, $light-green);
+background-repeat: no-repeat;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.centered-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-box{
+    min-height: 200px;
+    width: 100%;
+    max-width: 580px;
+    background: white;
+    border-radius: 5px;
+    padding: 32px;
+}
+
+
+.title{
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
